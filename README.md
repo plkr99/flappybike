@@ -6,6 +6,8 @@ Offenlegung der Quellen & Methodik:
 
 Reflexion Herausforderungen, Planung und Umsetzung:
 
+
+
 In unserem aktuellen Projekt stand die Entwicklung einer Webanwendung mit Geotracking im Vordergrund. Das Ziel war es, eine benutzerfreundliche Plattform zu schaffen, die es ermöglicht, die mit dem Fahrrad gefahrene Distanz aufzuzeichnen und dabei als Belohnung eine fiktive Währung zu verdienen.
 Die Idee unserer Webapp hat sich sehr rasch gefestigt und wir konnten unsere Gedanken schnell der Planung widmen. 
 Wir machten uns Gedanken, wie unsere App "Flappy Bike" richtig funktionieren könnte, zumal wir mit Geodaten arbeiten mussten. Mit Absprache und einigen Vorschläge der Dozenten, hatten wir einige Vorstellungen, wie unser Team das Projekt angehen konnte. 
