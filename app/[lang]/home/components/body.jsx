@@ -58,7 +58,7 @@ export default function BodyCard({ lang, dict }) {
         setInfo((info) => ({ ...info, loading: true, open: true }));
         const coordinates = getCoordinate(position);
         insertData("end", coordinates);
-        fetch("https://graphhopper.com/api/1/route?key=API_KEY", {
+        fetch("https://graphhopper.com/api/1/route?key=d980a185-2dcc-4f41-ad11-9a06e1b8f0b6", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
