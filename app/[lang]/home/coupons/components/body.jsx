@@ -5,44 +5,6 @@ import ButtonInfo from "./button_info";
 import supabase from "@/app/config/supabaseClient";
 import Loading from "@/app/[lang]/components/loading";
 
-const options = [
-  {
-    id: 1,
-    title: "10 % Restaurant",
-    credit: "1000",
-    barcode: "barcode123",
-  },
-  {
-    id: 2,
-    title: "20 % Laden",
-    credit: "2000",
-    barcode: "barcode123",
-  },
-  {
-    id: 3,
-    title: "10 % Laden",
-    credit: "1000",
-    barcode: "barcode123",
-  },
-  {
-    id: 4,
-    title: "10 % auf nächtsten Einkauf",
-    credit: "1000",
-    barcode: "barcode123",
-  },
-  {
-    id: 5,
-    title: "10 % auf nächtsten Einkauf",
-    credit: "1000",
-    barcode: "barcode123",
-  },
-  {
-    id: 6,
-    title: "Gratis Popcorn Kinobesuch",
-    credit: "2000",
-    barcode: "barcode123",
-  },
-];
 export default function BodyCard({ lang, dict }) {
   const [loading, setLoading] = useState(true);
   const [focusedElement, setFocusedElement] = useState();
